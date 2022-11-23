@@ -45,7 +45,7 @@ function search_refactor(arr, val) {
         if(arr[middle] < val){
             min = middle + 1
             console.log('min : ' , min)
-        } else if (arr[middle > val]) {
+        } else if (arr[middle] > val) {
             max = middle - 1
             console.log('max : ', max)
         } else {
