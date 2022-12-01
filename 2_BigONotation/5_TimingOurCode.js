@@ -91,13 +91,13 @@ logAtLeastMin(3)
 //How much additional memory do we need to allocate in order to run the code in our algorithm?
 
 //auxiliary space
-//To refer to space required by the algorith, not including space taken up by the inputs.
+//To refer to space required by the algorithm, not including space taken up by the inputs.
 
 //Space complexity in JS
  /*
 1. Most primitives ( booleans, numbers, undefined, null) are constant space
 2. Strings require O(n) space (where n is the string length)
-3. Referene types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
+3. Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
  */
 
 //Space complexity Example 1
@@ -124,7 +124,7 @@ double([1,2,3]) // O(n)space!
 /*
 Logarithmic time complexity is great!
 log2(value) = exponent ====> 2^exponent = value
-log2(8) =3 ========> 2^3 = 8
+log2(8) = 3 ========> 2^3 = 8
 
 We'll omit the 2. log === log2
 */
