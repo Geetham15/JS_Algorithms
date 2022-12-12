@@ -39,6 +39,7 @@ function merge(arr1, arr2) {
         results.push(arr2[j])
         j++
     }
+    console.log(results)
     return results;
 }
 merge([1,10,50], [2,14,99,100]) //[1,2,10,14,50,99,100]
