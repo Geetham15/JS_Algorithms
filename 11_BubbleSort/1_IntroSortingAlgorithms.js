@@ -13,10 +13,10 @@ Sorting movies based on revenue
 /*
 1. The built-in sort method accepts an optional comparator function
 2. You can use this comparator function to tell javascript how you want it to sort
-3. The comparator looks at pair of elements ( and b), determines their sort order based onthe return value
+3. The comparator looks at pair of elements ( a and b), determines their sort order based on the return value
     3.1 If it returns a negative number, a should come before b
     3.2 If it returns a positive number, a should come after b
-    3.3 If it reurns 0, a and b are the same as far as the sort is concerned.
+    3.3 If it returns 0, a and b are the same as far as the sort is concerned.
 */
 
 // Telling JavaScript how to sort
